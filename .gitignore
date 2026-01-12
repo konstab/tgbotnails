@@ -1,0 +1,26 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# logs
+*.log
+
+# runtime data (твои json-хранилища)
+bookings.json
+blocked_slots.json
+masters_custom.json
+master_overrides.json
+services_custom.json
+service_overrides.json
+admin_settings.json
+clients_custom.json
+
+# backups
+backups/
+*.zip
