@@ -1578,6 +1578,7 @@ async def back_to_master(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [InlineKeyboardButton("📅 Записи", callback_data="master_confirmed")],
             [InlineKeyboardButton("🚫 Закрыть день / часы", callback_data="master_close_day")],
             [InlineKeyboardButton("🛠 Мои услуги", callback_data="master_services")],
+            [InlineKeyboardButton("👤 Мой профиль", callback_data="master_profile")],
         ]),
     )
 
